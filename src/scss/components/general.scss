@@ -1,0 +1,61 @@
+html {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+button,
+input {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+::-webkit-input-placeholder {color: #121212;font-size: 12px;}
+::-moz-placeholder          {color: #121212;font-size: 12px;}
+:-moz-placeholder           {color: #121212;font-size: 12px;}
+:-ms-input-placeholder      {color: #121212;font-size: 12px;}
+
+input:focus::-webkit-input-placeholder {color:transparent;}
+input:focus::-moz-placeholder          {color:transparent;}
+input:focus:-moz-placeholder           {color:transparent;}
+input:focus:-ms-input-placeholder      {color:transparent;}
+
+img {
+    max-width: 100%;
+}
+
+input,
+button,
+textarea {
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.divider20 {
+    height: 20px;
+}
+
+.divider30 {
+    height: 30px;
+}
+
+.divider40 {
+    height: 40px;
+}
+
+.divider50 {
+    height: 50px;
+}
+
+.hidden-xs {
+    @include mobile-wide {
+        display: none !important;
+    }
+}

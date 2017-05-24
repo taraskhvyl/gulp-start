@@ -1,0 +1,13 @@
+// Import styles for compiling
+@import "mixins";
+@import "components/myplugin";
+
+@import "components/general";
+@import "components/popup";
+@import "components/icons";
+@import "components/pagination";
+
+@import "blocks/header";
+@import "blocks/footer";
+
+@import "pages/index";

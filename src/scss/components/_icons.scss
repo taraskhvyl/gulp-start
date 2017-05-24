@@ -1,0 +1,174 @@
+$icon_font_name:"svg-icons";
+@font-face {
+    font-family:$icon_font_name;
+    src: url('../fonts/svg-icons.eot');
+    src: url('../fonts/svg-icons.eot?#iefix') format('eot'),
+    url('../fonts/svg-icons.woff') format('woff'),
+    url('../fonts/svg-icons.ttf') format('truetype'),
+    url('../fonts/svg-icons.svg#svg-icons') format('svg');
+}
+%icon-about-ok,
+%icon-account,
+%icon-alert,
+%icon-arrow-right,
+%icon-categories,
+%icon-charger,
+%icon-down-arrow,
+%icon-edit,
+%icon-facebook,
+%icon-google,
+%icon-heart-fill,
+%icon-heart,
+%icon-home-slider-left,
+%icon-home-slider-right,
+%icon-instagram,
+%icon-mail-fill,
+%icon-mail,
+%icon-marker,
+%icon-ok,
+%icon-pagination-left,
+%icon-pagination-right,
+%icon-phone-fill,
+%icon-phone,
+%icon-pinterest,
+%icon-printer,
+%icon-profile,
+%icon-search,
+%icon-shopping-cart,
+%icon-skype,
+%icon-subscribe,
+%icon-youtube-logo,
+%last_selector {
+           &:before {
+               font-family:$icon_font_name;
+               -webkit-font-smoothing: antialiased;
+               -moz-osx-font-smoothing: grayscale;
+               font-style: normal;
+               font-variant: normal;
+               font-weight: normal;
+               // speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+               text-decoration: none;
+               text-transform: none;
+           }
+       }
+
+%icons_before_after {
+    &:before,
+    &:after {
+        font-family: $icon_font_name;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+%icons_after {
+    &:after {
+        font-family: $icon_font_name;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+%icon-about-ok:before {
+    content:'\E001';
+}
+%icon-account:before {
+    content:'\E002';
+}
+%icon-alert:before {
+    content:'\E003';
+}
+%icon-arrow-right:before {
+    content:'\E004';
+}
+%icon-categories:before {
+    content:'\E005';
+}
+%icon-charger:before {
+    content:'\E006';
+}
+%icon-down-arrow:before {
+    content:'\E007';
+}
+%icon-edit:before {
+    content:'\E008';
+}
+%icon-facebook:before {
+    content:'\E009';
+}
+%icon-google:before {
+    content:'\E00A';
+}
+%icon-heart-fill:before {
+    content:'\E00B';
+}
+%icon-heart:before {
+    content:'\E00C';
+}
+%icon-home-slider-left:before {
+    content:'\E00D';
+}
+%icon-home-slider-right:before {
+    content:'\E00E';
+}
+%icon-instagram:before {
+    content:'\E00F';
+}
+%icon-mail-fill:before {
+    content:'\E010';
+}
+%icon-mail:before {
+    content:'\E011';
+}
+%icon-marker:before {
+    content:'\E012';
+}
+%icon-ok:before {
+    content:'\E013';
+}
+%icon-pagination-left:before {
+    content:'\E014';
+}
+%icon-pagination-right:before {
+    content:'\E015';
+}
+%icon-phone-fill:before {
+    content:'\E016';
+}
+%icon-phone:before {
+    content:'\E017';
+}
+%icon-pinterest:before {
+    content:'\E018';
+}
+%icon-printer:before {
+    content:'\E019';
+}
+%icon-profile:before {
+    content:'\E01A';
+}
+%icon-search:before {
+    content:'\E01B';
+}
+%icon-shopping-cart:before {
+    content:'\E01C';
+}
+%icon-skype:before {
+    content:'\E01D';
+}
+%icon-subscribe:before {
+    content:'\E01E';
+}
+%icon-youtube-logo:before {
+    content:'\E01F';
+}
