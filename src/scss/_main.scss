@@ -1,0 +1,47 @@
+a {
+    transition: color .3s;
+    outline: none;
+
+    &:hover {
+
+    }
+}
+
+::selection {
+    color: #fff;
+    background: $color-orange;
+}
+
+input {
+    outline: none;
+}
+
+h1 {
+    color: $color-def;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+    color: $color-def;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+
+.ov-h {
+    overflow: hidden;
+}
+
+
+
+.link--external {
+    cursor: pointer;
+}

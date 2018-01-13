@@ -1,0 +1,25 @@
+include _mixins
+doctype html
+html
+    head
+        include _head
+
+        script(src="js/app.js")
+
+
+    body(class=bodyClass)
+        //BEGIN out
+        block header
+            include ../partials/_header
+        .wrapper
+            block content
+        //END out
+
+        include ../partials/footer
+
+        //LOAD SCRIPTS
+        block scripts
+
+
+
+            //script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvBnd-igV-XwuepyhKn80bMw1WaURmVIA&callback=initMap")
