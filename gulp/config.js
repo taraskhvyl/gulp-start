@@ -43,8 +43,8 @@ var config = {
     },
 
     info: {
-        name: "Unisender",
-        description: "Unisender",
+        name: "Default",
+        description: "Default",
         author: {
             name: "Point Agency",
             url: "http://point-agency.net/"
